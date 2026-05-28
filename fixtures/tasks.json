@@ -1,0 +1,32 @@
+[
+{
+  "model": "webapp.task",
+  "pk": 1,
+  "fields": {
+    "description": "Купить продукты",
+    "details": "Нужно купить хлеб, молоко и яйца.\nНе забыть про скидки.",
+    "status": "new",
+    "due_date": "2025-06-01"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 2,
+  "fields": {
+    "description": "Сдать домашнее задание",
+    "details": "Сделать все задания по Django.\n\nОсобенно внимательно — модели и миграции.",
+    "status": "in_progress",
+    "due_date": "2025-05-30"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 3,
+  "fields": {
+    "description": "Позвонить другу",
+    "details": "Поговорить о встрече на выходных.",
+    "status": "done",
+    "due_date": null
+  }
+}
+]
